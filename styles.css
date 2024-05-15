@@ -1,0 +1,28 @@
+html {
+    font-size: 16px;
+    background-color: black;
+}
+
+@font-face {
+    font-family: NightVengeanceFont;
+    src: url(./Fonts/NightVengeanceDemo-PKYyE.ttf) format("truetype");
+}
+
+.Title {
+    display: flex;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.Title img {
+    max-width: 100px;
+    max-height: 100px;
+    justify-content: center;
+}
+#MainTitle {
+    font-family: NightVengeanceFont, 'Franklin Gothic Medium', serif;
+    font-size: 3rem;
+    justify-content: center;
+    color: #d40412;
+}
