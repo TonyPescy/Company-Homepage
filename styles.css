@@ -1,11 +1,12 @@
-html {
-    font-size: 16px;
-    background-color: black;
-}
-
 @font-face {
     font-family: NightVengeanceFont;
     src: url(./Fonts/NightVengeanceDemo-PKYyE.ttf) format("truetype");
+}
+
+html {
+    font-size: 16px;
+    background-color: black;
+    font-family: NightVengeanceFont, 'Franklin Gothic Medium', serif;
 }
 
 .Title {
@@ -18,11 +19,64 @@ html {
 .Title img {
     max-width: 100px;
     max-height: 100px;
-    justify-content: center;
 }
 #MainTitle {
     font-family: NightVengeanceFont, 'Franklin Gothic Medium', serif;
     font-size: 3rem;
     justify-content: center;
     color: #d40412;
+}
+
+.Nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Nav h2 {
+    color: white;
+    text-decoration: underline white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Nav h2:hover {
+    color: #d40412;
+    text-decoration: underline #d40412;
+}
+
+.Nav h2:visited {
+    color: #6c070d;
+    text-decoration: underline #6c070d;
+}
+
+.Nav h2:active {
+    color: #6c070d;
+    text-decoration: underline #6c070d;
+}
+
+.Mission {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Mission img {
+    width: 100%;
+    height: initial;
+    z-index: -1;
+}
+
+.Mission p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    word-break: keep-all;
+    z-index: 1;
 }
