@@ -7,6 +7,7 @@ html {
     font-size: 16px;
     background-color: black;
     font-family: NightVengeanceFont, 'Franklin Gothic Medium', serif;
+    color: white;
 }
 
 .Title {
@@ -72,11 +73,31 @@ html {
 .Mission p {
     text-align: center;
     font-size: 1.5rem;
-    color: white;
     background-color: black;
     width: 100%;
     position: absolute;
     top: 40%;
     word-break: keep-all;
     z-index: 1;
+}
+
+.Products {
+    display: flexbox;
+    margin: auto;
+}
+
+.Products h2 {
+    font-size: 2rem;
+}
+
+.Products h4 {
+    font-size: 1.5rem;
+}
+
+.Products p {
+    font-size: .9rem;
+}
+
+.Products #Service {
+    justify-content: center;
 }
