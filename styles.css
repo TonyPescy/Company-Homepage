@@ -62,6 +62,7 @@ html {
     height: 500px;
     overflow: hidden;
     position: relative;
+    font-family: fantasy;
 }
 
 .Mission img {
@@ -81,17 +82,33 @@ html {
     z-index: 1;
 }
 
-.Products {
-    display: flexbox;
+.ProductHeader {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ProductHeader h2 {
+    font-size: 2rem;
+    width: fit-content;
     margin: auto;
 }
 
-.Products h2 {
-    font-size: 2rem;
+.ProductHeader p {
+    font-family: fantasy;
+    font-size: 1.2rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Products h4 {
     font-size: 1.5rem;
+    width: fit-content;
+    margin: auto;
 }
 
 .Products p {
@@ -99,5 +116,12 @@ html {
 }
 
 .Products #Service {
-    justify-content: center;
+    font-family: fantasy;
+    width: 500px;
 }
+
+.Products #Service img {
+    width: 500px;
+    height: 500px;
+}
+
