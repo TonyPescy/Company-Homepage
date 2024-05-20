@@ -62,7 +62,7 @@ html {
     height: 500px;
     overflow: hidden;
     position: relative;
-    font-family: fantasy;
+    font-family: arial;
 }
 
 .Mission img {
@@ -94,7 +94,7 @@ html {
 }
 
 .ProductHeader p {
-    font-family: fantasy;
+    font-family: arial;
     font-size: 1.2rem;
     width: fit-content;
     margin: auto;
@@ -116,7 +116,7 @@ html {
 }
 
 .Products #Service {
-    font-family: fantasy;
+    font-family: arial;
     width: 500px;
 }
 
@@ -125,3 +125,40 @@ html {
     height: 500px;
 }
 
+.TeamHeader {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.TeamHeader h2 {
+    font-size: 2rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.Team {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Team h4 {
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.Team p {
+    font-size: 1.2rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.Team #Member {
+    font-family: arial;
+    width: 500px;
+}
+
+.Team #Member img {
+    width: 500px;
+    height: 500px;
+}
