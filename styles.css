@@ -34,24 +34,29 @@ html {
     width: 100%;
 }
 
-.Nav h2 {
+.Nav a {
+    font-size: 2rem;
     color: white;
     text-decoration: underline white;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.Nav h2:hover {
-    color: #d40412;
-    text-decoration: underline #d40412;
+.Nav a:link {
+    color: white;
 }
 
-.Nav h2:visited {
+.Nav a:hover {
+    color: #d40412;
+    text-decoration: none;
+}
+
+.Nav a:visited {
     color: #6c070d;
     text-decoration: underline #6c070d;
 }
 
-.Nav h2:active {
+.Nav a:active {
     color: #6c070d;
     text-decoration: underline #6c070d;
 }
@@ -188,4 +193,31 @@ html {
 
 .Contact #Copy {
     margin-top: 75px;
+}
+
+.Contact a {
+    font-size: .75rem;
+    font-family: Arial;
+    text-decoration: underline white;
+    width: fit-content;
+    margin-left: 48%;
+}
+
+.Contact a:link {
+    color: white;
+}
+
+.Contact a:hover {
+    color: #d40412;
+    text-decoration: none;
+}
+
+.Contact a:visited {
+    color: black;
+    text-decoration: underline black;
+}
+
+.Contact a:active {
+    color: black;
+    text-decoration: underline black;
 }
