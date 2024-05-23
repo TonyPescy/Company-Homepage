@@ -162,3 +162,30 @@ html {
     width: 500px;
     height: 500px;
 }
+
+.Contact {
+    background-color: #6c070d;
+}
+
+.Contact h2 {
+    width: fit-content;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.Contact h5 {
+    width: fit-content;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+
+.Contact #Copy {
+    margin-top: 75px;
+}
