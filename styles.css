@@ -40,6 +40,7 @@ html {
     text-decoration: underline white;
     padding-left: 5%;
     padding-right: 5%;
+    flex-shrink: 2;
 }
 
 .Nav a:link {
@@ -114,15 +115,18 @@ html {
     font-size: 1.5rem;
     width: fit-content;
     margin: auto;
+    flex-shrink: 2;
 }
 
 .Products p {
     font-size: .9rem;
+    flex-shrink: 2;
 }
 
 .Products #Service {
     font-family: arial;
     width: 500px;
+    flex-shrink: 2;
 }
 
 .Products #Service img {
@@ -150,22 +154,26 @@ html {
     font-size: 1.5rem;
     width: fit-content;
     margin: auto;
+    flex-shrink: 2;
 }
 
 .Team p {
     font-size: 1.2rem;
     width: fit-content;
     margin: auto;
+    flex-shrink: 2;
 }
 
 .Team #Member {
     font-family: arial;
     width: 500px;
+    flex-shrink: 2;
 }
 
 .Team #Member img {
     width: 500px;
     height: 500px;
+    flex-shrink: 2;
 }
 
 .Contact {
